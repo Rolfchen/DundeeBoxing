@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+h1 {
+	font-family:"Univers Condensed";
+	clear: left;
+	font-size: 28px;
+}
+
+h2 {
+	font-family:"Univers Condensed";
+	clear: left;
+	font-size: 24px;
+}
+
+a {
+	text-decoration:none; 
+}
+.next {
+	background-image:url(boxingconfidence/buttonBg.png);
+	background-color: clear;
+	background-size:100% 100%;
+	text-align:center;
+	text-decoration:none;
+	width: 140px;
+	height: 27px;
+	border: none;
+	color: white;
+	font-family: "Univers Condensed";
+	font-size: 18px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+
+.exampleImage {
+	margin-left: 2%;
+	margin-bottom: 5px;
+	width: 96%;
+}
+
+.imageBlock {
+	margin-bottom: 10px;	
+}
+.imageText { 
+	font-size: 11px;
+	font-style:italic;	
+}
+
+.tipsContent {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+#gallery {
+	background-color: black;
+}
+
+.moveList {
+	
+	padding-left: 15px;
+}
+
+.moveList li {
+	margin-bottom: 10px;	
+}
+
+.iconList {
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	list-style-position: outside;
+}
+
+.iconList li  {
+	color: white;
+	padding: 5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	float: left;
+	background-color: black;
+	font-family:Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+.iconList li img {
+	display: block;
+}
+
+
+.thumbImage {
+	width: 100px;
+	vertical-align: top;
+}
+
+.play_video {
+	display: table;
+	height: 30px;
+	width: 110px;
+	margin-left: 2%;
+	margin-top: 0px;
+}
+
+.play_video a {
+	color: #06f;
+}
+.play_video img {
+	float: left;	
+}
+
+.play_video div {
+	float: left;
+	margin-top: 5px;
+}
+
+.drills_table {
+	margin-left: 20px;	
+	border: solid 1px #F90;
+}
+
+.drills_table td {
+	padding: 5px;	
+	border: solid 1px #F90;
+	color: #777;
+	width: 90%;
+}
